@@ -184,6 +184,7 @@ mongoose.connect(process.env.MONGO_URI)
   });
 
   server();
+  
 // cron.schedule('* * * * *', () => {
 //     const now = new Date(); // Get the current date and time
 //     console.log(`Task started running at: ${now.toLocaleString()}`);
