@@ -51,7 +51,7 @@ async function thirdScraper(url, title, matches) {
                     previousmatches.matches.push(matches);
                     await previousmatches.save();
 
-                    sendMessage(matches.title, matches.keyWords, matches.leagueType)
+                    // sendMessage(matches.title, matches.keyWords, matches.leagueType)
 
                     // console.log("Match saved", previousmatches)
                     
